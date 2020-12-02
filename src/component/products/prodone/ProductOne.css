@@ -1,0 +1,24 @@
+.product-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+
+  max-height: 400px;
+  min-width: 100px;
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
+
+}
+
+.product-info-one{
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+ 
+.product-info-one:hover{
+  color: rgb(76, 228, 251);
+}

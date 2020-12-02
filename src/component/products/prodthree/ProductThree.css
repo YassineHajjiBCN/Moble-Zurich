@@ -1,0 +1,34 @@
+.product-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: rgb(255, 251, 251);
+  z-index: 1;
+  border: 1px solid grey;
+  
+}
+ 
+
+.product-three > img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+ 
+.product__price-three {
+  margin-top: 1px;
+   
+}
+
+.product__info-three-3 {
+ 
+  font-weight: bold;
+}
